@@ -1,0 +1,64 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "ui": "tui",
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        ".env*"
+      ],
+      "outputs": [
+        "dist/**"
+      ]
+    },
+    "typecheck": {
+      "dependsOn": [
+        "^typecheck"
+      ]
+    },
+    "test": {
+      "inputs": [
+        "$TURBO_DEFAULT$"
+      ],
+      "outputs": [],
+      "passThroughEnv": [
+        "AUTH_INBUCKET_URL"
+      ]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    }
+  },
+  "boundaries": {
+    "tags": {
+      "type:horizontal": {
+        "dependencies": {
+          "deny": [
+            "type:data",
+            "type:ui",
+            "type:app"
+          ]
+        }
+      },
+      "type:data": {
+        "dependencies": {
+          "allow": [
+            "type:data",
+            "type:horizontal"
+          ]
+        }
+      },
+      "type:ui": {
+        "dependencies": {
+          "deny": [
+            "type:app"
+          ]
+        }
+      }
+    }
+  }
+}

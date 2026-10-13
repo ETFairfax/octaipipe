@@ -1,0 +1,61 @@
+{
+  "name": "@workspace/ui",
+  "version": "0.0.0",
+  "dependencies": {
+    "@base-ui/react": "catalog:",
+    "@fontsource-variable/geist-mono": "catalog:",
+    "@hookform/resolvers": "catalog:",
+    "@shadcn/react": "catalog:",
+    "@siberiacancode/reactuse": "catalog:",
+    "@tanstack/react-router": "catalog:",
+    "@tanstack/react-table": "catalog:",
+    "@tanstack/react-virtual": "catalog:",
+    "class-variance-authority": "catalog:",
+    "clsx": "catalog:",
+    "cmdk": "catalog:",
+    "date-fns": "catalog:",
+    "embla-carousel-react": "catalog:",
+    "es-toolkit": "catalog:",
+    "input-otp": "catalog:",
+    "lucide-react": "catalog:",
+    "react": "catalog:react19",
+    "react-day-picker": "catalog:",
+    "react-dom": "catalog:react19",
+    "react-hook-form": "catalog:",
+    "react-resizable-panels": "catalog:",
+    "recharts": "catalog:",
+    "shadcn": "catalog:",
+    "sonner": "catalog:",
+    "tailwind-merge": "catalog:",
+    "tw-animate-css": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "catalog:",
+    "@testing-library/react": "catalog:",
+    "@turbo/gen": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:react19",
+    "@types/react-dom": "catalog:react19",
+    "@vitejs/plugin-react": "catalog:",
+    "globals": "catalog:",
+    "jsdom": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  },
+  "exports": {
+    "./globals.css": "./src/styles/globals.css",
+    "./lib/*": "./src/lib/*.ts",
+    "./components": "./src/components/index.ts",
+    "./components/*": "./src/components/*.tsx",
+    "./hooks": "./src/hooks/index.ts",
+    "./hooks/*": "./src/hooks/*.ts"
+  },
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "type": "module"
+}

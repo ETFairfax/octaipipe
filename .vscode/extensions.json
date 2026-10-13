@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "anthropic.claude-code",
+    "biomejs.biome",
+    "bradlc.vscode-tailwindcss",
+    "eamodio.gitlens",
+    "formulahendry.auto-rename-tag",
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github",
+    "humao.rest-client",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode.azure-repos",
+    "ms-vscode.remote-repositories",
+    "rangav.vscode-thunder-client",
+    "vivaxy.vscode-conventional-commits",
+    "vscode-icons-team.vscode-icons"
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "sites": [
+    {
+      "id": "site-1",
+      "name": "Hall A",
+      "envelope": {
+        "label": "ASHRAE TC 9.9 recommended envelope (4th ed.) + site wet-bulb cap",
+        "dryBulbMinC": 18,
+        "dryBulbMaxC": 27,
+        "dewPointMinC": -9,
+        "dewPointMaxC": 15,
+        "rhMaxPct": 60,
+        "wetBulbMaxC": 18.5
+      },
+      "allowableEnvelope": {
+        "label": "ASHRAE TC 9.9 Class A1 allowable",
+        "dryBulbMinC": 15,
+        "dryBulbMaxC": 32,
+        "dewPointMinC": -12,
+        "dewPointMaxC": 17,
+        "rhMinPct": 8,
+        "rhMaxPct": 80
+      },
+      "readings": [
+        {
+          "timestamp": "2026-08-24T08:00:00Z",
+          "dryBulbC": 21,
+          "rhPct": 45
+        },
+        {
+          "timestamp": "2026-08-24T08:05:00Z",
+          "dryBulbC": 21.2,
+          "rhPct": 48
+        },
+        {
+          "timestamp": "2026-08-24T08:10:00Z",
+          "dryBulbC": 21.4,
+          "rhPct": 52
+        },
+        {
+          "timestamp": "2026-08-24T08:15:00Z",
+          "dryBulbC": 21.5,
+          "rhPct": 56
+        },
+        {
+          "timestamp": "2026-08-24T08:20:00Z",
+          "dryBulbC": 21.6,
+          "rhPct": 60
+        },
+        {
+          "timestamp": "2026-08-24T08:25:00Z",
+          "dryBulbC": 21.6,
+          "rhPct": 63
+        },
+        {
+          "timestamp": "2026-08-24T08:30:00Z",
+          "dryBulbC": 21.8,
+          "rhPct": 62
+        },
+        {
+          "timestamp": "2026-08-24T08:35:00Z",
+          "dryBulbC": 22.6,
+          "rhPct": 60
+        },
+        {
+          "timestamp": "2026-08-24T08:40:00Z",
+          "dryBulbC": 23.3,
+          "rhPct": 59
+        },
+        {
+          "timestamp": "2026-08-24T08:45:00Z",
+          "dryBulbC": 24,
+          "rhPct": 58
+        },
+        {
+          "timestamp": "2026-08-24T08:50:00Z",
+          "dryBulbC": 24.9,
+          "rhPct": 55
+        },
+        {
+          "timestamp": "2026-08-24T08:55:00Z",
+          "dryBulbC": 25.7,
+          "rhPct": 51
+        },
+        {
+          "timestamp": "2026-08-24T09:00:00Z",
+          "dryBulbC": 26.4,
+          "rhPct": 48
+        },
+        {
+          "timestamp": "2026-08-24T09:05:00Z",
+          "dryBulbC": 27,
+          "rhPct": 46
+        },
+        {
+          "timestamp": "2026-08-24T09:10:00Z",
+          "dryBulbC": 27.4,
+          "rhPct": 44
+        },
+        {
+          "timestamp": "2026-08-24T09:15:00Z",
+          "dryBulbC": 27.6,
+          "rhPct": 40
+        },
+        {
+          "timestamp": "2026-08-24T09:20:00Z",
+          "dryBulbC": 27.9,
+          "rhPct": 46
+        },
+        {
+          "timestamp": "2026-08-24T09:25:00Z",
+          "dryBulbC": 28.2,
+          "rhPct": 52
+        },
+        {
+          "timestamp": "2026-08-24T09:30:00Z",
+          "dryBulbC": 27.6,
+          "rhPct": 50
+        },
+        {
+          "timestamp": "2026-08-24T09:35:00Z",
+          "dryBulbC": 26.9,
+          "rhPct": 47
+        },
+        {
+          "timestamp": "2026-08-24T09:40:00Z",
+          "dryBulbC": 26,
+          "rhPct": 45
+        },
+        {
+          "timestamp": "2026-08-24T09:45:00Z",
+          "dryBulbC": 25,
+          "rhPct": 44
+        },
+        {
+          "timestamp": "2026-08-24T09:50:00Z",
+          "dryBulbC": 24,
+          "rhPct": 43
+        },
+        {
+          "timestamp": "2026-08-24T09:55:00Z",
+          "dryBulbC": 23,
+          "rhPct": 42
+        },
+        {
+          "timestamp": "2026-08-24T10:00:00Z",
+          "dryBulbC": 22,
+          "rhPct": 40
+        },
+        {
+          "timestamp": "2026-08-24T10:05:00Z",
+          "dryBulbC": 21,
+          "rhPct": 36
+        },
+        {
+          "timestamp": "2026-08-24T10:10:00Z",
+          "dryBulbC": 20,
+          "rhPct": 30
+        },
+        {
+          "timestamp": "2026-08-24T10:15:00Z",
+          "dryBulbC": 19,
+          "rhPct": 22
+        },
+        {
+          "timestamp": "2026-08-24T10:20:00Z",
+          "dryBulbC": 18.2,
+          "rhPct": 15
+        },
+        {
+          "timestamp": "2026-08-24T10:25:00Z",
+          "dryBulbC": 17.6,
+          "rhPct": 12
+        },
+        {
+          "timestamp": "2026-08-24T10:30:00Z",
+          "dryBulbC": 18.4,
+          "rhPct": 13
+        },
+        {
+          "timestamp": "2026-08-24T10:35:00Z",
+          "dryBulbC": 19.3,
+          "rhPct": 20
+        },
+        {
+          "timestamp": "2026-08-24T10:40:00Z",
+          "dryBulbC": 20.2,
+          "rhPct": 30
+        },
+        {
+          "timestamp": "2026-08-24T10:45:00Z",
+          "dryBulbC": 21,
+          "rhPct": 40
+        },
+        {
+          "timestamp": "2026-08-24T10:50:00Z",
+          "dryBulbC": 21,
+          "rhPct": 45
+        }
+      ]
+    },
+    {
+      "id": "site-2",
+      "name": "Hall B",
+      "envelope": {
+        "label": "Hall B contract: humidity-controlled hall with a wet-bulb floor",
+        "dryBulbMinC": 20,
+        "dryBulbMaxC": 25,
+        "rhMinPct": 30,
+        "rhMaxPct": 60,
+        "wetBulbMinC": 12
+      },
+      "allowableEnvelope": {
+        "label": "Hall B tolerated range",
+        "dryBulbMinC": 18,
+        "dryBulbMaxC": 28,
+        "rhMinPct": 20,
+        "rhMaxPct": 70,
+        "wetBulbMinC": 9
+      },
+      "readings": [
+        {
+          "timestamp": "2026-08-24T08:00:00Z",
+          "dryBulbC": 23,
+          "rhPct": 48
+        },
+        {
+          "timestamp": "2026-08-24T08:05:00Z",
+          "dryBulbC": 23.2,
+          "rhPct": 46
+        },
+        {
+          "timestamp": "2026-08-24T08:10:00Z",
+          "dryBulbC": 23.5,
+          "rhPct": 42
+        },
+        {
+          "timestamp": "2026-08-24T08:15:00Z",
+          "dryBulbC": 23.8,
+          "rhPct": 38
+        },
+        {
+          "timestamp": "2026-08-24T08:20:00Z",
+          "dryBulbC": 24,
+          "rhPct": 34
+        },
+        {
+          "timestamp": "2026-08-24T08:25:00Z",
+          "dryBulbC": 24.3,
+          "rhPct": 30
+        },
+        {
+          "timestamp": "2026-08-24T08:30:00Z",
+          "dryBulbC": 24.6,
+          "rhPct": 27
+        },
+        {
+          "timestamp": "2026-08-24T08:35:00Z",
+          "dryBulbC": 24.9,
+          "rhPct": 24
+        },
+        {
+          "timestamp": "2026-08-24T08:40:00Z",
+          "dryBulbC": 25.2,
+          "rhPct": 21
+        },
+        {
+          "timestamp": "2026-08-24T08:45:00Z",
+          "dryBulbC": 25.6,
+          "rhPct": 18
+        },
+        {
+          "timestamp": "2026-08-24T08:50:00Z",
+          "dryBulbC": 25.1,
+          "rhPct": 22
+        },
+        {
+          "timestamp": "2026-08-24T08:55:00Z",
+          "dryBulbC": 24.2,
+          "rhPct": 28
+        },
+        {
+          "timestamp": "2026-08-24T09:00:00Z",
+          "dryBulbC": 23,
+          "rhPct": 33
+        },
+        {
+          "timestamp": "2026-08-24T09:05:00Z",
+          "dryBulbC": 22,
+          "rhPct": 36
+        },
+        {
+          "timestamp": "2026-08-24T09:10:00Z",
+          "dryBulbC": 21,
+          "rhPct": 34
+        },
+        {
+          "timestamp": "2026-08-24T09:15:00Z",
+          "dryBulbC": 20.4,
+          "rhPct": 32
+        },
+        {
+          "timestamp": "2026-08-24T09:20:00Z",
+          "dryBulbC": 20,
+          "rhPct": 31
+        },
+        {
+          "timestamp": "2026-08-24T09:25:00Z",
+          "dryBulbC": 19.8,
+          "rhPct": 33
+        },
+        {
+          "timestamp": "2026-08-24T09:30:00Z",
+          "dryBulbC": 19,
+          "rhPct": 36
+        },
+        {
+          "timestamp": "2026-08-24T09:35:00Z",
+          "dryBulbC": 18,
+          "rhPct": 40
+        },
+        {
+          "timestamp": "2026-08-24T09:40:00Z",
+          "dryBulbC": 17.2,
+          "rhPct": 45
+        },
+        {
+          "timestamp": "2026-08-24T09:45:00Z",
+          "dryBulbC": 18.6,
+          "rhPct": 46
+        },
+        {
+          "timestamp": "2026-08-24T09:50:00Z",
+          "dryBulbC": 20.2,
+          "rhPct": 45
+        },
+        {
+          "timestamp": "2026-08-24T09:55:00Z",
+          "dryBulbC": 21.5,
+          "rhPct": 44
+        },
+        {
+          "timestamp": "2026-08-24T10:00:00Z",
+          "dryBulbC": 22.5,
+          "rhPct": 45
+        }
+      ]
+    },
+    {
+      "id": "test-3",
+      "name": "Test 1",
+      "envelope": {
+        "label": "Test 1: Recommended",
+        "dryBulbMinC": 20,
+        "dryBulbMaxC": 25,
+        "rhMinPct": 30,
+        "rhMaxPct": 60,
+        "wetBulbMinC": 12
+      },
+      "allowableEnvelope": {
+        "label": "Test 1 Tolerated range",
+        "dryBulbMinC": 18,
+        "dryBulbMaxC": 28,
+        "rhMinPct": 20,
+        "rhMaxPct": 70,
+        "wetBulbMinC": 9
+      },
+      "readings": [
+        {
+          "timestamp": "2026-08-24T09:40:00Z",
+          "dryBulbC": 17.2,
+          "rhPct": 19
+        }
+      ]
+    }
+  ]
+}

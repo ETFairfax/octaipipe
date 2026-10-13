@@ -1,0 +1,41 @@
+{
+  "name": "octaipipe",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@biomejs/biome": "catalog:",
+    "@commitlint/cli": "catalog:",
+    "@commitlint/config-conventional": "catalog:",
+    "@commitlint/lint": "catalog:",
+    "@commitlint/load": "catalog:",
+    "@swc/core": "catalog:",
+    "dependency-cruiser": "catalog:",
+    "husky": "catalog:",
+    "turbo": "catalog:",
+    "typescript": "catalog:"
+  },
+  "engines": {
+    "node": ">=22.0.0 <23.0.0"
+  },
+  "packageManager": "pnpm@11.9.0",
+  "private": true,
+  "scripts": {
+    "boundaries": "turbo boundaries",
+    "build": "turbo build",
+    "check": "biome check --write .",
+    "check:ci": "biome ci .",
+    "deps:fix": "pnpm dlx syncpack@alpha fix",
+    "deps:format": "pnpm dlx syncpack@alpha format",
+    "deps:lint": "pnpm dlx syncpack@alpha lint",
+    "deps:list": "pnpm dlx syncpack@alpha list --specifier-types exact",
+    "deps:outdated": "pnpm -r outdated --sort-by=name",
+    "deps:update": "pnpm dlx syncpack@alpha update",
+    "dev": "turbo dev",
+    "dev:mock": "pnpm --filter @workspace/platform dev:mock",
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "lint:imports": "depcruise packages apps --config",
+    "prepare": "husky",
+    "test": "turbo test",
+    "typecheck": "turbo typecheck"
+  }
+}

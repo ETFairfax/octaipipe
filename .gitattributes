@@ -1,0 +1,11 @@
+# Normalise line endings in the repo to LF; check out as CRLF on all platforms
+# so that Biome (configured for CRLF) agrees with files everywhere, including CI.
+* text=auto eol=crlf
+
+# ...except the files that are executed inside a Linux container or CI runner rather than
+# linted by Biome. A CRLF shebang (`#!/bin/sh\r`) fails with a bare "not found", and nginx
+# rejects directives with a trailing carriage return.
+*.sh            text eol=lf
+Dockerfile      text eol=lf
+*.conf          text eol=lf
+*.conf.template text eol=lf

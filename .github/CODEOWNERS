@@ -1,0 +1,9 @@
+# Each domain's data and UI packages are owned by the same team. Replace @Octaipipe with the
+# owning team handle as teams form. Changes to a package's public API (src/index.ts) need the
+# owner's review.
+/packages/api-client/       @Octaipipe
+/packages/ui/               @Octaipipe
+/apps/                      @Octaipipe
+/packages/utils/            @Octaipipe
+packages/psychrometrics-data/ @Octaipipe
+/packages/psychrometrics-ui/   @Octaipipe

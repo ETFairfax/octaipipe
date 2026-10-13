@@ -1,0 +1,31 @@
+{
+  "name": "@workspace/psychrometrics-data",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./mocks": "./src/mocks/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "catalog:",
+    "@workspace/api-client": "workspace:*",
+    "ky": "catalog:",
+    "react": "catalog:react19",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@testing-library/react": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:react19",
+    "jsdom": "catalog:",
+    "msw": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:"
+  }
+}

@@ -1,0 +1,11 @@
+# Husky commit-msg hook: git passes the path to a file containing the
+# candidate commit message as $1. Rules live in commitlint.config.js
+# (root) — this is the enforcement backstop for every contributor/tool,
+# not just Claude Code (see .claude/hooks/check-commit-msg.js for the
+# faster, non-authoritative pre-check Claude Code gets before this runs).
+# `pnpm exec` instead of the more common `npx` because this repo's dev
+# environment doesn't guarantee an `npm`/`npx` binary on PATH — only pnpm.
+# CI=true: git hooks never have a TTY, so if node_modules has drifted from
+# the lockfile, pnpm's dependency-status check would otherwise abort with
+# ERR_PNPM_ABORTED_REMOVE_MODULES_DIR_NO_TTY instead of just recreating it.
+# CI=true pnpm exec commitlint --edit "$1"

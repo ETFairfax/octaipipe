@@ -1,0 +1,14 @@
+{
+  "clientId": "client_01M3SKA5MMCQ1YHD87NA532ZW3",
+  "redirectUri": "http://localhost:4000/platform/",
+  "apiUrl": "https://my-api.com/",
+  "loginUrl": "http://localhost:4000/login",
+  "appLinks": {
+    "platform": "http://localhost:4000"
+  },
+  "idleSignOutTimeoutMs": 10000,
+  "idleSignOutWarningMs": 5000,
+  "devLicensedModules": [
+    "psychrometrics"
+  ]
+}

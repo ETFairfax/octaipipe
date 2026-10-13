@@ -1,0 +1,36 @@
+# The image builds from the monorepo root (every workspace package ships TypeScript source with
+# no build step, so Vite has to compile them in place) -- which means `COPY . .` pulls in the
+# whole tree. Everything below either bloats the build context or must never reach an image.
+
+.git
+.github
+.husky
+
+node_modules
+**/node_modules
+
+# Local build output. Stale `dist` copied over a fresh build would serve yesterday's bundle.
+**/dist
+**/dist2
+.turbo
+**/.turbo
+.tanstack
+**/.tanstack
+
+# Gitignored, and real: these hold live environment the developer last pointed at. 
+# The container writes its own config.json at startup
+# from environment variables (docker/10-runtime-config.sh) -- baking one in would both leak that
+# environment's config and defeat the build-once/promote-many model.
+apps/*/public/config.json
+.env
+.env.*
+
+# Agent and editor context, never needed to build.
+.devcontainer
+.claude
+.agents
+.vscode
+docs
+CONTEXT-MAP.md
+**/CONTEXT.md
+**/*.md

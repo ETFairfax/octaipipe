@@ -1,0 +1,10 @@
+{
+  "clientId": "",
+  "redirectUri": "",
+  "apiUrl": "",
+  "signInUrl": "",
+  "supportEmail": "",
+  "appLinks": {
+    "platform": ""
+  }
+}

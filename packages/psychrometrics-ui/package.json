@@ -1,0 +1,33 @@
+{
+  "name": "@workspace/psychrometrics-ui",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@workspace/psychrometrics-data": "workspace:*",
+    "@workspace/ui": "workspace:*",
+    "d3-scale": "^4.0.2",
+    "react": "catalog:react19"
+  },
+  "devDependencies": {
+    "@tanstack/react-query": "catalog:",
+    "@testing-library/react": "catalog:",
+    "@types/d3-scale": "^4.0.9",
+    "@workspace/api-client": "workspace:*",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:react19",
+    "@vitejs/plugin-react": "catalog:",
+    "jsdom": "catalog:",
+    "msw": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:"
+  }
+}
