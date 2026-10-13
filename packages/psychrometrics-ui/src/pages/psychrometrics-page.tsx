@@ -55,7 +55,7 @@ function SiteView({ siteId }: { siteId: string }) {
       )}
       {/* On ultra-wide screens the chart group dissolves (`contents`) so the chart, the reading
           and the stacked envelope cards share one row. */}
-      <div className='flex flex-col gap-3 min-[110rem]:grid min-[110rem]:grid-cols-[minmax(0,calc((100svh-8rem)*860/560))_repeat(2,minmax(0,1fr))] min-[110rem]:items-start min-[110rem]:gap-4'>
+      <div className='flex flex-col gap-3 min-[110rem]:grid min-[110rem]:grid-cols-[minmax(0,calc((100svh-8rem)*860/560))_repeat(2,minmax(16rem,1fr))] min-[110rem]:items-start min-[110rem]:gap-4'>
         <div className='grid items-start gap-4 min-[110rem]:contents lg:grid-cols-[minmax(0,1fr)_20rem]'>
           {status === 'loading' ? (
             <Skeleton
